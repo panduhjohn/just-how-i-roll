@@ -15,9 +15,13 @@ This is a simple die-rolling app, with the HTML, CSS, and DOM manipulation JavaS
 
 * Okay, let's tackle the JavaScript! The very first function is a block of code that runs when we roll a d6, named (hopefully clearly!) `rollD6`. It's got a bunch of DOM manipulation to change the d6 image according to a random roll, which you do _not_ need to alter in any way, but we _do_ need some code to get a random roll from 1-6. That's where you come in! Set the `roll` variable, which is currently set to `5`, to a random number.
 
-* But first, above that `roll` variable, we'll need to make a variable and assign it a random number from 0-1.
+* But first, above that `roll` variable, we'll need to make a variable and assign it a random floating point number from 0-1 
 
-* Next, we'll need to make a variable that works off of that random number to 
+* Next, we'll need to make a variable that works off of that random number to get it within the range we want (0-6).
+
+* But this variable still holds a floating point number. We need to round it UP to make it an integer 1-6.
+
+* Once we have that, put the value in `roll`. Our DOM manipulation should do the rest!
 
 
 

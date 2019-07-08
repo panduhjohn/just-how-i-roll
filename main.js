@@ -82,15 +82,26 @@ function rollDoubleD6() {
 
 // No need to touch this section at all!
 
-document.querySelector('.d6-roll').onclick = rollD6;
-document.querySelector('.double-d6-roll-1').onclick = rollDoubleD6;
-document.querySelector('.double-d6-roll-2').onclick = rollDoubleD6;
-document.querySelector('.d12-roll').onclick = rollD12;
-document.querySelector('.d20-roll').onclick = rollD20;
+const d6Image = document.querySelector('.d6-roll')
+d6Image.onclick = rollD6;
+
+const doubleD6Image1 = document.querySelector('.double-d6-roll-1')
+doubleD6Image1.onclick = rollDoubleD6;
+
+const doubleD6Image2 = document.querySelector('.double-d6-roll-2')
+doubleD6Image2.onclick = rollDoubleD6;
+
+const d12Image = document.querySelector('.d12-roll')
+d12Image.onclick = rollD12;
+
+const d20Image = document.querySelector('.d20-roll')
+d20Image.onclick = rollD20;
 
 
-// For the random image stretch goal, uncommnet the following line.
-// document.querySelector('.stretch-goal').onclick = chooseRandomImageForStretchGoal;
+
+// For the random image stretch goal, uncomment the following two lines.
+// const randomImage = document.querySelector('.stretch-goal')
+// randomImage.onclick = chooseRandomImageForStretchGoal;
 
 // For the double d6 separate-behavior stretch goal, uncomment the following line.
-// document.querySelector('.double-d6-roll-2').onclick = rollSecondDoubleD6;
+// doubleD6Image2.onclick = rollSecondDoubleD6;
