@@ -9,7 +9,7 @@ This is a simple die-rolling app, with the HTML, CSS, and DOM manipulation JavaS
 
 * Check out the HTML. Pretty straightforward overall, though we've used `<section>` tags instead of `<div>`s. This is part of the newer, more semantic style--a `<section>` is literally just another name for a `<div>`, but it's a much better one, and we'll explore some others as we go.
 
-* Now check out the CSS. Also pretty basic, with some flexbox arrangment to make things line up a little better than generic `block` and `inline` styles would do it.
+* Now check out the CSS. Also pretty basic, with some flexbox arrangement to make things line up a little better than generic `block` and `inline` styles would do it.
 
 * Before we totally dive in, let's also look at the images in our project. There is a `d6` directory for the six sides of a standard (6-sided) die, then a `start` directory with single images of a d12 and a d20 (a die with 12 sides and a die with 20 sides), and finally a `numbers` directory, because it's really hard to find an image of each side of a d12 or a d20.
 

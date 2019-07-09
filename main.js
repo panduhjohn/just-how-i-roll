@@ -1,7 +1,8 @@
 // Inside the curly braces below is the code that runs when someone clicks the
 // single 6-sided die.
 function rollD6() {
-    const roll = 5;
+    const roll = Math.floor(Math.random() * 6) + 1;
+
 
 
     // No need to alter the rest of this function!
@@ -19,7 +20,7 @@ function rollD6() {
 // Inside the curly braces below is the code that runs when someone clicks the
 // 12-sided die.
 function rollD12() {
-    const roll = 11;
+    const roll = Math.floor(Math.random() * 12) + 1;
 
 
     // No need to alter the rest of this function!
@@ -37,7 +38,7 @@ function rollD12() {
 // Inside the curly braces below is the code that runs when someone clicks the
 // 20-sided die.
 function rollD20() {
-    const roll = 19;
+    const roll = Math.floor(Math.random() * 20) + 1;
 
 
     // No need to alter the rest of this function!
@@ -55,8 +56,8 @@ function rollD20() {
 // Inside the curly braces below is the code that runs when someone clicks
 // EITHER of the two six-sided dice in their own section.
 function rollDoubleD6() {
-    const roll1 = 5;
-    const roll2 = 5;
+    const roll1 = Math.floor(Math.random() * 6) + 1;
+    const roll2 = Math.floor(Math.random() * 6) + 1;
 
 
     // No need to alter the rest of this function!
